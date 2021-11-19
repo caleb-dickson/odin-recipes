@@ -11,6 +11,8 @@ h1, h4 {
 }
 p, a {
     font-style: "Georgia", serif;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 * {
     background-color: grey;
