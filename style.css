@@ -1,0 +1,10 @@
+h1, h4 {
+    font-style: "Helvetica", sans-serif;
+}
+p, a {
+    font-style: "Georgia", serif;
+}
+* {
+    background-color: grey;
+    color: white;
+}
