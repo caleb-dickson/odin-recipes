@@ -1,5 +1,13 @@
+/* Homepage Styles */
 h1, h4 {
     font-style: "Helvetica", sans-serif;
+    text-align: center;
+}
+.pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 p, a {
     font-style: "Georgia", serif;
