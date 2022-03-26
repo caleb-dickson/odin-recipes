@@ -1,29 +1,66 @@
 /* Site Styles */
 
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.container {
+    justify-content: center;
+    margin-left: 8vw;
+    max-width: 50rem;
+    margin-right: 8vw;
+}
+
 .headline {
-    font-family: "Helvetica", sans-serif;
-    text-align: center;
-    font-size: 42px;
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+  font-size: 42px;
 }
+
+.recipe-item {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 #buttons {
-    background-color: rgb(111, 106, 106);
-    display: block;
-    margin: 0 auto;
-    padding: 6px 18px;
+  background-color: rgb(111, 106, 106);
+  display: block;
+  margin: 0 auto;
+  padding: 6px 18px;
 }
-h4 {
+
+h2 {
     text-align: center;
 }
-.pics {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+h4 {
+  text-align: center;
 }
-p, a {
-    font-family: "Georgia", serif;
+
+.index-pics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  max-width: 600px;
 }
+
+.recipe-page-pics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  max-width: 700px;
+}
+
+p,
+a {
+  font-family: "Georgia", serif;
+}
+
 * {
-    background-color: grey;
-    color: white;
+  background-color: grey;
+  color: white;
 }
